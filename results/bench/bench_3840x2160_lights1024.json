@@ -1,0 +1,109 @@
+{
+  "adapter": {
+    "vendor": "apple",
+    "architecture": "metal-3",
+    "description": "Apple M4 Pro",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36"
+  },
+  "size": [
+    3840,
+    2160
+  ],
+  "frames": 200,
+  "results": [
+    {
+      "label": "sr",
+      "series": [
+        "sr"
+      ],
+      "outputSize": [
+        3840,
+        2160
+      ],
+      "renderSize": [
+        1920,
+        1080
+      ],
+      "frames": 200,
+      "wallMsPerFrame": 16.718999999761582,
+      "passes": {
+        "lrColor": {
+          "ms": 9.046257208737863,
+          "frames": 206
+        },
+        "gbuffer": {
+          "ms": 0.1807872766990291,
+          "frames": 206
+        },
+        "dilate": {
+          "ms": 0.2612411844660194,
+          "frames": 206
+        },
+        "blend": {
+          "ms": 1.2941430485436893,
+          "frames": 206
+        },
+        "mainPass": {
+          "ms": 0.1289171359223301,
+          "frames": 206
+        }
+      }
+    },
+    {
+      "label": "native",
+      "series": [
+        "native"
+      ],
+      "outputSize": [
+        3840,
+        2160
+      ],
+      "renderSize": [
+        1920,
+        1080
+      ],
+      "frames": 200,
+      "wallMsPerFrame": 35.24650000035763,
+      "passes": {
+        "native": {
+          "ms": 29.95079482038835,
+          "frames": 206
+        },
+        "mainPass": {
+          "ms": 0.1305383786407767,
+          "frames": 206
+        }
+      }
+    },
+    {
+      "label": "bilinear",
+      "series": [
+        "bilinear"
+      ],
+      "outputSize": [
+        3840,
+        2160
+      ],
+      "renderSize": [
+        1920,
+        1080
+      ],
+      "frames": 200,
+      "wallMsPerFrame": 14.29949999988079,
+      "passes": {
+        "lrPlain": {
+          "ms": 8.941426538834952,
+          "frames": 206
+        },
+        "bilinearUp": {
+          "ms": 0.2935172038834951,
+          "frames": 206
+        },
+        "mainPass": {
+          "ms": 0.14965705339805827,
+          "frames": 206
+        }
+      }
+    }
+  ]
+}

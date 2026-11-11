@@ -1,0 +1,41 @@
+{
+  "run": "sponza_walk",
+  "series": [
+    "sr"
+  ],
+  "frames": 480,
+  "savedFrames": 480,
+  "saveEvery": 1,
+  "fps": 60,
+  "t0": 0,
+  "warmupFrames": 32,
+  "outputSize": [
+    1920,
+    1080
+  ],
+  "renderSize": [
+    960,
+    540
+  ],
+  "referenceSamples": 64,
+  "settings": {
+    "depthThreshold": 0.01,
+    "clampHistory": true,
+    "depthRejection": false,
+    "weightScale": 1,
+    "jitterSequence": "mobfgsr",
+    "jitterSign": 1,
+    "mipBias": -1
+  },
+  "pathDuration": 8,
+  "seconds": 26.383700000047682,
+  "adapter": {
+    "vendor": "apple",
+    "architecture": "metal-3",
+    "description": "Apple M4 Pro",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36"
+  },
+  "settingsOverride": {
+    "depthRejection": false
+  }
+}

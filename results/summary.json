@@ -1,0 +1,136 @@
+{
+ "quality": {
+  "sr": {
+   "psnrMean": 34.17,
+   "psnrMin": 32.92,
+   "ssimMean": 0.9177,
+   "frames": 480
+  },
+  "bilinear": {
+   "psnrMean": 32.92,
+   "psnrMin": 32.12,
+   "ssimMean": 0.8822,
+   "frames": 480
+  },
+  "native": {
+   "psnrMean": 38.66,
+   "psnrMin": 37.31,
+   "ssimMean": 0.9811,
+   "frames": 480
+  },
+  "bias0_sr": {
+   "psnrMean": 33.38,
+   "psnrMin": 32.26,
+   "ssimMean": 0.8958,
+   "frames": 480
+  },
+  "flip_sr": {
+   "psnrMean": 31.11,
+   "psnrMin": 30.09,
+   "ssimMean": 0.8261,
+   "frames": 480
+  },
+  "noclamp_sr": {
+   "psnrMean": 33.47,
+   "psnrMin": 28.79,
+   "ssimMean": 0.9176,
+   "frames": 480
+  },
+  "nodepth_sr": {
+   "psnrMean": 34.06,
+   "psnrMin": 32.89,
+   "ssimMean": 0.9165,
+   "frames": 480
+  }
+ },
+ "timing": {
+  "1920x1080": {
+   "sr": {
+    "lrColor": 0.517,
+    "gbuffer": 0.156,
+    "dilate": 0.06,
+    "blend": 0.404,
+    "mainPass": 0.036
+   },
+   "native": {
+    "native": 0.766,
+    "mainPass": 0.029
+   },
+   "bilinear": {
+    "lrPlain": 0.398,
+    "bilinearUp": 0.07,
+    "mainPass": 0.039
+   },
+   "srTotal": 1.137,
+   "srOverhead": 0.62,
+   "nativeTotal": 0.766,
+   "speedup": 0.67
+  },
+  "3840x2160": {
+   "sr": {
+    "lrColor": 0.873,
+    "gbuffer": 0.168,
+    "dilate": 0.261,
+    "blend": 1.301,
+    "mainPass": 0.111
+   },
+   "native": {
+    "native": 1.861,
+    "mainPass": 0.112
+   },
+   "bilinear": {
+    "lrPlain": 0.726,
+    "bilinearUp": 0.295,
+    "mainPass": 0.137
+   },
+   "srTotal": 2.603,
+   "srOverhead": 1.73,
+   "nativeTotal": 1.861,
+   "speedup": 0.71
+  },
+  "1920x1080_lights1024": {
+   "sr": {
+    "lrColor": 3.216,
+    "gbuffer": 0.132,
+    "dilate": 0.047,
+    "blend": 0.331,
+    "mainPass": 0.035
+   },
+   "native": {
+    "native": 8.679,
+    "mainPass": 0.034
+   },
+   "bilinear": {
+    "lrPlain": 3.169,
+    "bilinearUp": 0.066,
+    "mainPass": 0.048
+   },
+   "srTotal": 3.726,
+   "srOverhead": 0.51,
+   "nativeTotal": 8.679,
+   "speedup": 2.33
+  },
+  "3840x2160_lights1024": {
+   "sr": {
+    "lrColor": 9.046,
+    "gbuffer": 0.181,
+    "dilate": 0.261,
+    "blend": 1.294,
+    "mainPass": 0.129
+   },
+   "native": {
+    "native": 29.951,
+    "mainPass": 0.131
+   },
+   "bilinear": {
+    "lrPlain": 8.941,
+    "bilinearUp": 0.294,
+    "mainPass": 0.15
+   },
+   "srTotal": 10.782,
+   "srOverhead": 1.736,
+   "nativeTotal": 29.951,
+   "speedup": 2.78
+  }
+ }
+}

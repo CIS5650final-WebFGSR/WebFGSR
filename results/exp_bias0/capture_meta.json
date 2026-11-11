@@ -1,0 +1,44 @@
+{
+  "run": "exp_bias0",
+  "series": [
+    "sr",
+    "bilinear",
+    "native",
+    "reference"
+  ],
+  "frames": 60,
+  "savedFrames": 60,
+  "saveEvery": 1,
+  "fps": 60,
+  "t0": 0,
+  "warmupFrames": 32,
+  "outputSize": [
+    1920,
+    1080
+  ],
+  "renderSize": [
+    960,
+    540
+  ],
+  "referenceSamples": 16,
+  "settings": {
+    "depthThreshold": 0.01,
+    "clampHistory": true,
+    "depthRejection": true,
+    "weightScale": 1,
+    "jitterSequence": "mobfgsr",
+    "jitterSign": 1,
+    "mipBias": 0
+  },
+  "pathDuration": 8,
+  "seconds": 13.556399999976158,
+  "adapter": {
+    "vendor": "apple",
+    "architecture": "metal-3",
+    "description": "Apple M4 Pro",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36"
+  },
+  "settingsOverride": {
+    "mipBias": 0
+  }
+}

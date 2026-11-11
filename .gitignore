@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+
+# Offline capture output (frames are large; keep the summaries)
+results/**/frames/
+results/**/*.png
+results/**/*.mp4
+!results/**/keep/**
